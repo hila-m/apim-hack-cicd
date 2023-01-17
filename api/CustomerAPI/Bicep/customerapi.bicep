@@ -1,5 +1,5 @@
 param dockerimagetag string 
-param location string
+param location string = 'northeu'
 param name string
 param apidefinitionurl string = '' 
 @secure()
