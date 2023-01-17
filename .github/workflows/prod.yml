@@ -10,7 +10,7 @@ on:
 jobs:
    deploy_to_prod:
     name: 'Production deployment'
-    uses: ./.github/workflows/main.yml         #Call the existing workflow 
+    uses: ./.github/workflows/build.yml         #Call the existing workflow 
     secrets: inherit
     with:
       name: hapiopsprod
